@@ -17,12 +17,13 @@
         <resource type="download" name="myfirstplugin.css" location="/css/myfirstplugin.css"/>
         <resource type="download" name="myfirstplugin.js" location="/js/myfirstplugin.js"/>
         <resource type="download" name="images/" location="/images"/>
-
+    
         <context>myfirstplugin</context>
     </web-resource>
 
-    <taskType key="myFirstTask" name="My First Task" class="myfirstplugin.MyFirstTask">
+    <taskType key="myFirstTask" name="Robot Test" class="myfirstplugin.MyFirstTask">
         <description>A task that prints 'Hello, World!'</description>
+        <resource type="download" name="icon" location="/images/pluginIcon.png"/>
     </taskType>
     
 </atlassian-plugin>
