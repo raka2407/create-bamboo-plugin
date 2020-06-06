@@ -21,9 +21,9 @@
         <context>myfirstplugin</context>
     </web-resource>
 
-    <taskType key="myFirstTask" name="Robot Test" class="myfirstplugin.MyFirstTask">
+    <taskType key="myFirstTask" name="My First Task" class="myfirstplugin.MyFirstTask">
         <description>A task that prints 'Hello, World!'</description>
-        <resource type="download" name="icon" location="/images/pluginIcon.png"/>
+        <!-- <resource type="download" name="icon" location="/images/pluginIcon.png"/> -->
     </taskType>
     
 </atlassian-plugin>
